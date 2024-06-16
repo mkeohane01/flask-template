@@ -9,7 +9,7 @@ format:
 	black *.py 
 
 lint:
-	pylint --disable=R,C
+	pylint --disable=R,C app/*.py
 		
 all: install lint format test
 
